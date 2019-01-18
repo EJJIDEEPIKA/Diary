@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "824647016997",
+    "firebase_url": "https://bludiary-1d455.firebaseio.com",
+    "project_id": "bludiary-1d455",
+    "storage_bucket": "bludiary-1d455.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824647016997:android:8f1cf6a3ec8e3ae4",
+        "android_client_info": {
+          "package_name": "com.view.projectapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824647016997-hg2iun179tv8vbu3lg7o9km13gu11rm6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwXjoE_cPZ5N03L3FzHh2es6WXfbhCsFc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

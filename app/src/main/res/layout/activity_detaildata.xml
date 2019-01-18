@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Detaildata"
+    android:background="@mipmap/color">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@mipmap/blue"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:background="@drawable/editview">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:maxLength="20"
+        android:text="dgjgk,gj,jgjgkhgyuiyuhjkyuy"
+        android:id="@+id/head11"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:maxLength="25"
+        android:text="dgjgk,gj,jgjgkhgyuiyuhjkyuyftfyggjhjkhjkhjkh"
+        android:id="@+id/desc11"/>
+
+    </LinearLayout>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:background="@mipmap/back"
+        android:onClick="Backl" />
+    </LinearLayout></ScrollView>
+</LinearLayout>

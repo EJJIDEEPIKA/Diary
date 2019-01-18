@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#c662cff7"
+    android:fadingEdge="vertical"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@drawable/image"
+        android:src="@mipmap/logo"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+   android:id="@+id/text1"
+    android:layout_gravity="center"
+    android:textColor="#fff"
+    android:fontFamily="serif"
+    android:textStyle="bold"
+    android:text="gfgfgfgfy"
+    android:textSize="50sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text2"
+        android:layout_gravity="center"
+        android:text="vhfgbjbjjjnj"
+        android:textColor="#fff"
+        android:layout_marginLeft="20dp"
+        android:textSize="30sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text3"
+        android:layout_gravity="center"
+        android:text="vhfgbjbjjjnj"
+        android:textColor="#fff"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="30sp"/>
+<Button
+    android:layout_width="130dp"
+    android:layout_height="60dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/textview"
+    android:onClick="Enter"
+    android:textSize="30sp"
+    android:textAlignment="center"
+    android:layout_marginLeft="180dp"
+    android:padding="10dp"
+    android:text="Enter"
+    android:textAllCaps="false"
+    android:textColor="#fff"/>
+</LinearLayout></ScrollView>
+    </LinearLayout>

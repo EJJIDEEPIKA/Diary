@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@mipmap/color"
+    tools:context=".Addoption">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@mipmap/blue"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/addname"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:hint="Heading                (0/20)"
+        android:background="@drawable/editview"
+        android:maxLength="20"
+        android:id="@+id/heading"
+        android:padding="15dp"
+        android:textSize="25sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:maxLength="100"
+        android:id="@+id/description"
+        android:hint="Description           (0/100)"
+        android:background="@drawable/editview"
+
+        android:textSize="25sp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:onClick="Back"
+    android:layout_marginLeft="20dp"
+    android:background="@mipmap/back"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="60dp"
+            android:onClick="save"
+            android:background="@mipmap/save"/>
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

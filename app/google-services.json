@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "5575038876",
+    "firebase_url": "https://bludiary-1847d.firebaseio.com",
+    "project_id": "bludiary-1847d",
+    "storage_bucket": "bludiary-1847d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5575038876:android:8f1cf6a3ec8e3ae4",
+        "android_client_info": {
+          "package_name": "com.view.projectapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "5575038876-of39ihfdf4rcr693j00c2pkon7at7n8h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.view.projectapp",
+            "certificate_hash": "dddfa99973236b9d177e8b3299d185519458541e"
+          }
+        },
+        {
+          "client_id": "5575038876-373lkvirfu49c4cm7lds5bu97gcdo7qi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKCsFKZoSVmtc_iYxtPOJDADo1wbvhGr0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "5575038876-373lkvirfu49c4cm7lds5bu97gcdo7qi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

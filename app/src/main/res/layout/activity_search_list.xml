@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/color"
+    tools:context=".SearchList">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@mipmap/blue"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search result-"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_margin="10dp"/>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:background="@drawable/editview"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:id="@+id/rc1"></android.support.v7.widget.RecyclerView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:onClick="Backsearch"
+        android:layout_marginLeft="20dp"
+        android:background="@mipmap/back"/>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
